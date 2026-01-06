@@ -3,8 +3,8 @@ import { View, Text, ActivityIndicator, ScrollView, StyleSheet, Image } from 're
 import { createClient } from '@supabase/supabase-js';
 
 
-const supabaseUrl = 'https://lhjvaivpaxuaqabkrgst.supabase.co';
-const supabaseKey = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImxoanZhaXZwYXh1YXFhYmtyZ3N0Iiwicm9sZSI6InNlcnZpY2Vfcm9sZSIsImlhdCI6MTc1NTQ3MDIzMywiZXhwIjoyMDcxMDQ2MjMzfQ.oJtb_ZkO1sPOeVHoRQgqtcOes6Eae-WRPiOEvtrNZjI';
+const supabaseUrl = 'your supabase url';
+const supabaseKey = 'your supabase key';
 SUPABASE_TABLE_NAME='Outfits';
 const supabase = createClient(supabaseUrl, supabaseKey);
 
@@ -105,4 +105,5 @@ const styles = StyleSheet.create({
     marginTop: 10,
     borderRadius: 6
   }
+
 });
